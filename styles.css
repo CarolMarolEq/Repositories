@@ -1,0 +1,163 @@
+div{
+    color: aquamarine;
+    padding: 30px;
+    text-align: center;
+
+}
+.content{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr auto;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 250px 1fr;
+    grid-template-rows: auto 1fr;
+    gap: 5px;
+    height: 90vh;
+}
+.Me{
+    max-width:100%;
+    height: 250px;;
+}
+a:link{
+    color: greenyellow;
+}
+a:visited{
+    color: violet;
+}
+h1{
+    color: antiquewhite;
+    font-family: 'Copperplate';
+}
+
+.content{
+    display: grid;
+}
+
+body{
+    background-image: url(https://cdnb.artstation.com/p/assets/images/images/024/538/827/original/pixel-jeff-clipa-s.gif?1582740711);
+}
+article{
+    color: white;
+    background: rgba(9, 70, 81, 0.5);
+}
+
+.seven{
+    color: white;
+    background: rgba(9, 70, 81, 0.5);    
+}
+.eight{
+    color: white;
+    background: rgba(9, 70, 81, 0.5);    
+}
+.nine{
+    color: white;
+    background: rgba(9, 70, 81, 0.5);    
+}
+
+button{
+    background-color: aqua;
+    font-style: italic;
+}
+
+.Pac-Container {
+    position: relative;
+    display: flex;
+    place-content: center;
+}
+
+/* styling of the tooltip display */
+#PacMan {
+    display: none;
+    position: absolute;
+    top: -60px;
+    z-index: 1;
+    background: #faee11;
+    padding: 8px;
+    font-size: 1rem;
+    color: rgb(6, 6, 6);
+    border-radius: 2px;
+    animation: fadeIn 0.6s;
+}
+
+/* optional styling to add a "wedge" to the tooltip */
+#PacMan:before {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -8px;
+  border: 8px solid transparent;
+  border-top: 8px solid #faee11;
+}
+.Eyes-Container {
+    position: relative;
+    display: flex;
+    place-content: center;
+}
+
+/* styling of the tooltip display */
+#Eyes {
+    display: none;
+    position: absolute;
+    top: -60px;
+    z-index: 1;
+    background: #942fd7;
+    padding: 8px;
+    font-size: 1rem;
+    color: rgb(255, 255, 255);
+    border-radius: 2px;
+    animation: fadeIn 0.6s;
+}
+
+/* optional styling to add a "wedge" to the tooltip */
+#Eyes:before {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -8px;
+  border: 8px solid transparent;
+  border-top: 8px solid #942fd7;
+}
+
+.Map-Container {
+    position: relative;
+    display: flex;
+    place-content: center;
+}
+
+/* styling of the tooltip display */
+#Map {
+    display: none;
+    position: absolute;
+    top: -60px;
+    z-index: 1;
+    background: #0bb945;
+    padding: 8px;
+    font-size: 1rem;
+    color: rgb(255, 255, 255);
+    border-radius: 2px;
+    animation: fadeIn 0.6s;
+}
+
+/* optional styling to add a "wedge" to the tooltip */
+#Map:before {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -8px;
+  border: 8px solid transparent;
+  border-top: 8px solid #0bb945;
+}
+
+@keyframes fadeIn {
+ from {
+   opacity: 0;
+ }
+ to {
+   opacity: 1;
+ }
+}
